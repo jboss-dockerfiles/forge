@@ -5,7 +5,7 @@ FROM jboss/base-jdk:7
 MAINTAINER JBoss Forge Team <forge@redhat.com>
 
 # Set the FORGE_VERSION env variable
-ENV FORGE_VERSION 2.13.1.Final
+ENV FORGE_VERSION 2.14.0.Final
 
 # Add the JBoss Forge distribution to /opt, and make forge the owner of the extracted tar content
 # Make sure the distribution is available from a well-known place
